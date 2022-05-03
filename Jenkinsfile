@@ -3,7 +3,6 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        bat 'pwd'
         bat 'date'
       }
     }
